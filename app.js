@@ -41,11 +41,11 @@ function showData(data) {
         lyricsResult.innerHTML += `
     <div class="single-result d-flex align-items-center justify-content-between my-3 p-3">
     <div><img src="${song.album.cover}" alt="cover of ${song.album.title}"></div>
-    <div class="col-md-7">
+    <div class="col-md-7 col-sm-6 col-5">
         <h3 class="lyrics-name">${song.title}</h3> <br>
         <p class="author lead">${song.album.title} by <span>${song.artist.name}</span></p>
     </div>
-    <div class="col-md-5 text-md-right text-center">
+    <div class="col-md-5 col-sm-6 col-7 text-md-right text-center">
         <button style="margin-right:100px;" class="btn btn-success" data-artist="${song.artist.name}" data-songtitle="${song.title}">Get Lyrics</button>
     </div>
     </div>
