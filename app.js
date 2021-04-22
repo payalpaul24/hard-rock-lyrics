@@ -35,7 +35,7 @@ function showData(data) {
     lyricsShow.innerHTML = "";
 
     const apiURLData = data.data;
-    const displaySongsData = apiURLData.map((item) => item).slice(0, 10);
+    const displaySongsData = apiURLData.map((item) => item).slice(0, 20);
 
     displaySongsData.map((song) => {
         lyricsResult.innerHTML += `
